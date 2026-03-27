@@ -1,21 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SicilyLinesMobile.MainPage">
+             x:Class="SicilyLinesMobile.MainPage"
+             ControlTemplate="{StaticResource MarineLayout}">
 
 
     <Grid>
 
-        <Image Source="carte_marine.jpg"
-               Aspect="AspectFill"/>
+        <Border StrokeShape="RoundRectangle 20"
+                    HeightRequest="300"
+                    BackgroundColor="White"
+                    Margin="30, 15, 30, 0"
+                    Padding="20"
+                    VerticalOptions="Center">
 
-        <Image Source="logo.png"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Start"
-                       HeightRequest="250"
-                       WidthRequest="400"
-                       Margin="0, -60, 0, 0"
-        />
+            <VerticalStackLayout Spacing="15">
+
+                <Label Text="Connexion"
+                       FontSize="24" 
+                       HorizontalOptions="Center" 
+                       FontAttributes="Bold"
+                       TextColor="Black"/>
+
+                <Entry Placeholder="Identifiant"
+                       PlaceholderColor="Gray"
+                       TextColor="Black"
+                       Keyboard="Text"
+                       />
+
+                <Entry Placeholder="Mot de passe"
+                       PlaceholderColor="Gray"
+                       TextColor="Black"
+                       Keyboard="Text"
+                       IsPassword="True"
+                       
+                       />
+
+                <Button Text="Se connecter"
+                        Clicked="OnLoginClicked"
+                        BackgroundColor="RoyalBlue"
+                        TextColor="White"
+                        CornerRadius="10"
+                        Margin="0,10,0,0"
+                        />
+
+                <Label Text="Mot de passe oublié ?"
+                    TextColor="Blue"
+                    TextDecorations="Underline"
+                    HorizontalOptions="End"
+                    Margin="0,0,0,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnForgotPasswordTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+
+
+
+            </VerticalStackLayout>
+
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Radius="10" Opacity="0.2" />
+            </Border.Shadow>
+        </Border>
 
 
 

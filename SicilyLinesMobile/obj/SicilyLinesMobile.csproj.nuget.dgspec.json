@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ELEVE\\source\\repos\\SicilyLinesMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj": {}
+    "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ELEVE\\source\\repos\\SicilyLinesMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj": {
+    "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ELEVE\\source\\repos\\SicilyLinesMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj",
+        "projectUniqueName": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj",
         "projectName": "SicilyLinesMobile",
-        "projectPath": "C:\\Users\\ELEVE\\source\\repos\\SicilyLinesMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj",
+        "projectPath": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj",
         "packagesPath": "C:\\Users\\ELEVE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ELEVE\\source\\repos\\SicilyLinesMobile\\SicilyLinesMobile\\obj\\",
+        "outputPath": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

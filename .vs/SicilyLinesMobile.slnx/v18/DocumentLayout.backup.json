@@ -1,12 +1,71 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ELEVE\\source\\repos\\SicilyLinesMobile\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\eleve\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\eleve\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\eleve\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\App.xaml",
+              "RelativeDocumentMoniker": "SicilyLinesMobile\\App.xaml",
+              "ToolTip": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\App.xaml",
+              "RelativeToolTip": "SicilyLinesMobile\\App.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-25T14:00:28.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "SicilyLinesMobile\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\DashboardPage.xaml",
+              "RelativeToolTip": "SicilyLinesMobile\\DashboardPage.xaml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-25T13:46:06.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\MainPage.xaml",
+              "RelativeDocumentMoniker": "SicilyLinesMobile\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\MainPage.xaml",
+              "RelativeToolTip": "SicilyLinesMobile\\MainPage.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-24T13:25:24.358Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

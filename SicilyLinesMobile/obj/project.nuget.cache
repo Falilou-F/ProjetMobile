@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AYEsLeGwqnk=",
+  "dgSpecHash": "jJYLDWDD7Kc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELEVE\\source\\repos\\SicilyLinesMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj",
+  "projectFilePath": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\SicilyLinesMobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELEVE\\.nuget\\packages\\googlegson\\2.13.1.1\\googlegson.2.13.1.1.nupkg.sha512",
     "C:\\Users\\ELEVE\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.0\\microsoft.extensions.configuration.10.0.0.nupkg.sha512",

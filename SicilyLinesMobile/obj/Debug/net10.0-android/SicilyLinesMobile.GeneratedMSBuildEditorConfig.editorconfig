@@ -20,13 +20,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SicilyLinesMobile
-build_property.ProjectDir = C:\Users\ELEVE\source\repos\SicilyLinesMobile\SicilyLinesMobile\
+build_property.ProjectDir = C:\Users\ELEVE\source\repos\Falilou-F\ProjetMobile\SicilyLinesMobile\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ELEVE/source/repos/SicilyLinesMobile/SicilyLinesMobile/App.xaml]
+[C:/Users/ELEVE/source/repos/Falilou-F/ProjetMobile/SicilyLinesMobile/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SicilyLinesMobile.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -36,7 +36,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/ELEVE/source/repos/SicilyLinesMobile/SicilyLinesMobile/AppShell.xaml]
+[C:/Users/ELEVE/source/repos/Falilou-F/ProjetMobile/SicilyLinesMobile/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SicilyLinesMobile.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -46,7 +46,17 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/ELEVE/source/repos/SicilyLinesMobile/SicilyLinesMobile/MainPage.xaml]
+[C:/Users/ELEVE/source/repos/Falilou-F/ProjetMobile/SicilyLinesMobile/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SicilyLinesMobile.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DashboardPage.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/Users/ELEVE/source/repos/Falilou-F/ProjetMobile/SicilyLinesMobile/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SicilyLinesMobile.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
@@ -56,7 +66,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/ELEVE/source/repos/SicilyLinesMobile/SicilyLinesMobile/Resources/Styles/Colors.xaml]
+[C:/Users/ELEVE/source/repos/Falilou-F/ProjetMobile/SicilyLinesMobile/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SicilyLinesMobile.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
@@ -66,7 +76,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/ELEVE/source/repos/SicilyLinesMobile/SicilyLinesMobile/Resources/Styles/Styles.xaml]
+[C:/Users/ELEVE/source/repos/Falilou-F/ProjetMobile/SicilyLinesMobile/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SicilyLinesMobile.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
