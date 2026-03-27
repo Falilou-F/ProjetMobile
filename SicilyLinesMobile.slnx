@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="API-Mobile/API-Mobile.csproj" Id="9bcb090f-cd7a-4c45-8bd1-0a58770c4b9f" />
   <Project Path="SicilyLinesMobile/SicilyLinesMobile.csproj" />
 </Solution>

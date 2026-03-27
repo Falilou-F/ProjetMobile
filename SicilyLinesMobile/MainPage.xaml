@@ -22,13 +22,15 @@
                        FontAttributes="Bold"
                        TextColor="Black"/>
 
-                <Entry Placeholder="Identifiant"
+                <Entry x:Name="IdentifiantEntry"  
+                       Placeholder="Identifiant"
                        PlaceholderColor="Gray"
                        TextColor="Black"
                        Keyboard="Text"
                        />
 
-                <Entry Placeholder="Mot de passe"
+                <Entry x:Name="PasswordEntry"
+                       Placeholder="Mot de passe"
                        PlaceholderColor="Gray"
                        TextColor="Black"
                        Keyboard="Text"
