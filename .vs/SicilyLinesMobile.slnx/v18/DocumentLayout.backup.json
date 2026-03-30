@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\",
+  "WorkspaceRootPath": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\eleve\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\fall\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\editprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\editprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BCB090F-CD7A-4C45-8BD1-0A58770C4B9F}|API-Mobile\\API-Mobile.csproj|c:\\users\\eleve\\source\\repos\\falilou-f\\projetmobile\\api-mobile\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BCB090F-CD7A-4C45-8BD1-0A58770C4B9F}|API-Mobile\\API-Mobile.csproj|c:\\users\\fall\\source\\repos\\falilou-f\\projetmobile\\api-mobile\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BCB090F-CD7A-4C45-8BD1-0A58770C4B9F}|API-Mobile\\API-Mobile.csproj|solutionrelative:api-mobile\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BCB090F-CD7A-4C45-8BD1-0A58770C4B9F}|API-Mobile\\API-Mobile.csproj|c:\\users\\fall\\source\\repos\\falilou-f\\projetmobile\\api-mobile\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BCB090F-CD7A-4C45-8BD1-0A58770C4B9F}|API-Mobile\\API-Mobile.csproj|solutionrelative:api-mobile\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BCB090F-CD7A-4C45-8BD1-0A58770C4B9F}|API-Mobile\\API-Mobile.csproj|c:\\users\\fall\\source\\repos\\falilou-f\\projetmobile\\api-mobile\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BCB090F-CD7A-4C45-8BD1-0A58770C4B9F}|API-Mobile\\API-Mobile.csproj|solutionrelative:api-mobile\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\eleve\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\fall\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\editprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\editprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\fall\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BCB090F-CD7A-4C45-8BD1-0A58770C4B9F}|API-Mobile\\API-Mobile.csproj|c:\\users\\fall\\source\\repos\\falilou-f\\projetmobile\\api-mobile\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9BCB090F-CD7A-4C45-8BD1-0A58770C4B9F}|API-Mobile\\API-Mobile.csproj|solutionrelative:api-mobile\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\fall\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|c:\\users\\fall\\source\\repos\\falilou-f\\projetmobile\\sicilylinesmobile\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2A62C8-A45F-A297-A61C-122244BDA8A1}|SicilyLinesMobile\\SicilyLinesMobile.csproj|solutionrelative:sicilylinesmobile\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +46,139 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "API-Mobile\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "API-Mobile\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T14:05:25.752Z",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\AppShell.xaml",
+              "RelativeDocumentMoniker": "SicilyLinesMobile\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\AppShell.xaml",
+              "RelativeToolTip": "SicilyLinesMobile\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-27T15:51:27.039Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditProfile.xaml",
+              "DocumentMoniker": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\EditProfile.xaml",
+              "RelativeDocumentMoniker": "SicilyLinesMobile\\EditProfile.xaml",
+              "ToolTip": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\EditProfile.xaml",
+              "RelativeToolTip": "SicilyLinesMobile\\EditProfile.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-27T15:14:32.873Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "SicilyLinesMobile\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\MainPage.xaml.cs",
-              "RelativeToolTip": "SicilyLinesMobile\\MainPage.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAzwBoAAAAvAAAAAAAAAA==",
+              "Title": "EditProfile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\EditProfile.xaml.cs",
+              "RelativeDocumentMoniker": "SicilyLinesMobile\\EditProfile.xaml.cs",
+              "ToolTip": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\EditProfile.xaml.cs",
+              "RelativeToolTip": "SicilyLinesMobile\\EditProfile.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T14:10:40.479Z",
+              "WhenOpened": "2026-03-27T15:24:32.945Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "API-Mobile\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "API-Mobile\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:44:34.119Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\MainPage.xaml",
-              "RelativeDocumentMoniker": "SicilyLinesMobile\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\ELEVE\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\MainPage.xaml",
-              "RelativeToolTip": "SicilyLinesMobile\\MainPage.xaml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-24T13:25:24.358Z",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\User.cs",
+              "RelativeDocumentMoniker": "API-Mobile\\User.cs",
+              "ToolTip": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\User.cs",
+              "RelativeToolTip": "API-Mobile\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:38:06.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\User.cs",
+              "RelativeDocumentMoniker": "SicilyLinesMobile\\User.cs",
+              "ToolTip": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\User.cs",
+              "RelativeToolTip": "SicilyLinesMobile\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:44:46.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API-Mobile\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API-Mobile\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:14:19.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API-Mobile\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\API-Mobile\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API-Mobile\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T12:35:29.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "SicilyLinesMobile\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Fall\\source\\repos\\Falilou-F\\ProjetMobile\\SicilyLinesMobile\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "SicilyLinesMobile\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:41:46.217Z",
               "EditorCaption": ""
             }
           ]

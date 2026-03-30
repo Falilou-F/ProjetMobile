@@ -6,4 +6,11 @@ public partial class DashboardPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private async void OnEditProfileClicked(Object sender, EventArgs e)
+	{
+		await Shell.Current.GoToAsync("//EditProfile");
+	}
+
+
 }
