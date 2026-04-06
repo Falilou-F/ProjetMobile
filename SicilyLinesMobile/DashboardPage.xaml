@@ -4,6 +4,14 @@
              x:Class="SicilyLinesMobile.DashboardPage"
              ControlTemplate="{StaticResource MarineLayout}">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+                    Text="Déconnexion"
+                    Order="Primary"
+                    Priority="0"
+                    Clicked="OnDeconnexionClicked" />
+    </ContentPage.ToolbarItems>
+
     <Grid>
 
         <Border StrokeShape="RoundRectangle 20"
@@ -30,6 +38,7 @@
                     />
 
                 <Button Text="Lister ses réservations"
+                    Clicked="OnReservationsClicked"
                     BackgroundColor="DarkBlue"
                     TextColor="White"
                     CornerRadius="10"

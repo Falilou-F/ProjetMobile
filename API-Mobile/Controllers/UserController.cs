@@ -6,21 +6,24 @@ namespace API_Mobile.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private static User _user = new User(1, "Hamidou.Salim", "Hamidou", "Salim", "Salim.Hamidou@gmail.com", "123");
+        public static User user = new User(1, "Hamidou.Salim", "Hamidou", "Salim", "Salim.Hamidou@gmail.com", "123");
+
+        // Méthode ajoutée pour que LoginController puisse y accéder
+        public static User GetUser() => user;
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            return Ok(_user);
+            return Ok(user);
         }
 
         [HttpPost("Update")]
         public IActionResult Update([FromBody] User updatedUser)
         {
-            _user.Identifiant = updatedUser.Identifiant;
-            _user.Email = updatedUser.Email;
-            _user.Password = updatedUser.Password;
-            return Ok(_user);
+            user.Identifiant = updatedUser.Identifiant;
+            user.Email = updatedUser.Email;
+            user.Password = updatedUser.Password;
+            return Ok(user);
         }
     }
 }

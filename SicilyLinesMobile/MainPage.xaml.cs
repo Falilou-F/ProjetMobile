@@ -4,6 +4,7 @@ namespace SicilyLinesMobile
 {
     public partial class MainPage : ContentPage
     {
+        private static readonly HttpClient _client = new HttpClient();
 
         public MainPage()
         {
@@ -19,20 +20,17 @@ namespace SicilyLinesMobile
         {
             try
             {
-                HttpClient client = new HttpClient();
-
                 string pseudo = IdentifiantEntry.Text;
                 string password = PasswordEntry.Text;
 
                 var restURL = "http://localhost:5028/Login/" + pseudo + "/" + password;
 
-                HttpResponseMessage response = await client.GetAsync(restURL);
-
+                HttpResponseMessage response = await _client.GetAsync(restURL);
                 var content = await response.Content.ReadAsStringAsync();
 
                 if (content == "true")
                 {
-                    await Shell.Current.GoToAsync("DashboardPage");
+                    await Shell.Current.GoToAsync("//DashboardPage");
                 }
                 else
                 {
@@ -43,7 +41,6 @@ namespace SicilyLinesMobile
             {
                 await DisplayAlert("Erreur", ex.Message, "Ok");
             }
-
         }
     }
 }

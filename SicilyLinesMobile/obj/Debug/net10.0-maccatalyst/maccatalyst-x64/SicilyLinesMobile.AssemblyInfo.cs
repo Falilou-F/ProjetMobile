@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SicilyLinesMobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d4303aff327dafaf3f307ffaa3ca61e03e844901")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+938963364648a667930038a223861fcb64ab8479")]
 [assembly: System.Reflection.AssemblyProductAttribute("SicilyLinesMobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SicilyLinesMobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

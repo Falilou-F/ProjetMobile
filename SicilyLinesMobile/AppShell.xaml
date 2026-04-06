@@ -16,5 +16,8 @@
     <ShellContent Title="EditProfile"
               ContentTemplate="{DataTemplate local:DashboardPage}"
               Route="DashboardPage" />
+    <ShellContent Title="Réservations"
+              Route="ReservationsPage"
+              ContentTemplate="{DataTemplate local:ReservationsPage}" />
 
 </Shell>

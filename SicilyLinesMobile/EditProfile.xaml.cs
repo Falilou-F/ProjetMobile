@@ -4,20 +4,19 @@ namespace SicilyLinesMobile;
 
 public partial class EditProfile : ContentPage
 {
-	public EditProfile()
-	{
+    private static readonly HttpClient _client = new HttpClient();
+
+    public EditProfile()
+    {
         InitializeComponent();
-        loadDataFromAPI();
+        LoadDataFromAPI();
     }
 
-    public async void loadDataFromAPI()
+    public async void LoadDataFromAPI()
     {
-        HttpClient client = new HttpClient();
-        var restURL = "http://localhost:5028/User/1";
-
         try
         {
-            HttpResponseMessage response = await client.GetAsync(restURL);
+            HttpResponseMessage response = await _client.GetAsync("http://localhost:5028/User/1");
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
@@ -25,37 +24,44 @@ public partial class EditProfile : ContentPage
                 Identifiant.Text = user.Identifiant;
                 Mail.Text = user.Email;
                 Password.Text = user.Password;
+                Nom.Text = user.Nom;
+                Prenom.Text = user.Prenom;
+                Identifiant.Text = user.Identifiant; // ← modifiable
+                Mail.Text = user.Email;
+                Password.Text = user.Password;
             }
         }
-        catch { }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Erreur", ex.Message, "OK");
+        }
     }
 
     private async void OnValidateClicked(object sender, EventArgs e)
     {
-        HttpClient client = new HttpClient();
-        var restURL = "http://localhost:5028/User/Update";
-
         var userModifie = new User
         {
+            Id = 1,
             Identifiant = Identifiant.Text,
             Email = Mail.Text,
             Password = Password.Text
         };
 
-        string json = JsonConvert.SerializeObject(userModifie);
+        var json = JsonConvert.SerializeObject(userModifie);
         var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+        var response = await _client.PostAsync("http://localhost:5028/User/Update", content);
 
-        var response = await client.PostAsync(restURL, content);
         if (response.IsSuccessStatusCode)
-        {
             await DisplayAlert("Info", "Modification réussie", "OK");
-            await Shell.Current.GoToAsync("//Dashboard");
-        }
-        else 
-        {             
+        else
             await DisplayAlert("Erreur", "La modification a échoué", "OK");
-        }
     }
 
-
+    private async void OnDeconnexionClicked(object sender, EventArgs e)
+    {
+        Application.Current.Resources.Remove("UserPseudo");
+        await Shell.Current.GoToAsync("//MainPage");
+    }
 }
+
+

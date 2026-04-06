@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SicilyLinesMobile"
+             x:Class="SicilyLinesMobile.ReservationsPage"
+             ControlTemplate="{StaticResource MarineLayout}">
+
+    <ContentPage.Resources>
+        <local:DateToColorConverter x:Key="DateToColor"/>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Déconnexion" Order="Primary" Priority="0" Clicked="OnDeconnexionClicked"/>
+    </ContentPage.ToolbarItems>
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Label Text="Mes Réservations"
+               FontSize="22"
+               FontAttributes="Bold"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
+
+        <CollectionView x:Name="ListeReservations">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border StrokeShape="RoundRectangle 12"
+                            BackgroundColor="{Binding DateDepart, Converter={StaticResource DateToColor}}"
+                            Padding="15"
+                            Margin="0,5">
+                        <VerticalStackLayout Spacing="5">
+
+                            <Label Text="{Binding Destination}"
+                                   FontSize="16"
+                                   FontAttributes="Bold"
+                                   TextColor="DarkBlue"/>
+
+                            <Label Text="{Binding DateDepart, StringFormat='Départ : {0}'}"
+                                   FontSize="14"
+                                   TextColor="Gray"/>
+
+                            <Label Text="{Binding DateRetour, StringFormat='Retour : {0}'}"
+                                   FontSize="14"
+                                   TextColor="Gray"/>
+
+                            <Label Text="{Binding Statut}"
+                                   FontSize="13"
+                                   TextColor="Green"
+                                   FontAttributes="Italic"/>
+
+                        </VerticalStackLayout>
+                        <Border.Shadow>
+                            <Shadow Brush="Black" Offset="0,2" Radius="5" Opacity="0.1"/>
+                        </Border.Shadow>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+
+</ContentPage>

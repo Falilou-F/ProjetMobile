@@ -9,7 +9,9 @@ namespace API_Mobile.Controllers
         [HttpGet("{pseudo}/{pass}")]
         public bool Get(string pseudo, string pass)
         {
-            if (pseudo == "Salim" && pass == "123")
+            var user = UserController.GetUser();
+
+            if (pseudo == user.Identifiant && pass == user.Password)
             {
                 return true;
             }
